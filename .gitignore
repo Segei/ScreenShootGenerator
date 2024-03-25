@@ -1,5 +1,8 @@
-# Visual Studio 2015 user specific files
+# Visual Studio user specific files
 .vs/
+
+# Rider user specific files
+.idea/
 
 # Compiled Object files
 *.slo
@@ -14,16 +17,12 @@
 # Compiled Dynamic libraries
 *.so
 *.dylib
-*.dll
-
 # Fortran module files
 *.mod
 
 # Compiled Static libraries
 *.lai
 *.la
-*.a
-*.lib
 
 # Executables
 *.exe
@@ -72,3 +71,10 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+# ThirdParty plugins data
+!Plugins/*/Source/*/ThirdParty/*/*
+*.cpd
+
+#Rider plugin
+Plugins/Developer/RiderLink
