@@ -15,6 +15,8 @@ public class ScreenShootGenerator : ModuleRules
 			"Engine",
 			"InputCore",
 			"ImageWriteQueue",
+			"CinematicCamera",
+			"UMG",
 		});
 
 		PrivateDependencyModuleNames.AddRange(new string[] { });

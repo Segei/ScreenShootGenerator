@@ -44,4 +44,5 @@ protected:
 	void GetTextureRenderTarget(UTextureRenderTarget2D* RTarget, UTexture2D*& Texture2D);
 	void DrawPoints(TArray<FVector2D> Positions);
 	void SaveScreenShoot(FString FileName);
+	double InverseLerp(float A, float B, float Value);
 };
